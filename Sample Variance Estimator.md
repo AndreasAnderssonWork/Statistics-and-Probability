@@ -26,6 +26,6 @@ and
 $$E[\bar{X}^2] = Var[\bar{X}] + E[\bar{X}]^2 = \frac{\sigma^2}{n} + \mu^2.$$
 Putting it all together we get
 $$E[\hat{s}^{2}] = \frac{1}{n} \cdot ( n(\sigma^2 + \mu^2) - n(\frac{\sigma^2}{n} + \mu^2)) = \frac{1}{n} \cdot \sigma^2(n-1) = \frac{n-1}{n}\sigma^2 \neq \sigma^2,$$
-which shows that \hat{s}^{2} is biased. However, it is easy to see that if we instead would divide by $n-1$ as we do in the definition of $s^2$ the factors would cancel out which would give us
+which shows that $\hat{s}^{2}$ is biased. However, it is easy to see that if we instead would divide by $n-1$ as we do in the definition of $s^2$ the factors would cancel out which would give us
 $$E[s^2]=\sigma^2,$$
 giving us an unbiased estimator. That is the reason why we divide by $\frac{1}{n-1}$ instead of dividing by the total number of random variables in the sample.
